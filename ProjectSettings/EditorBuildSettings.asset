@@ -137,4 +137,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/MMSceneLoadingDemoSceneB.unity
     guid: 352d34cac2435634fb99618d19a3929c
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Inicio.unity
+    guid: 992cfd9a90be3704482a530557d42f62
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Instrucciones.unity
+    guid: 4cd316b17b779764da0af8a92905a9e8
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Creditos.unity
+    guid: 30c24540570b14d47a3c1f08e174671e
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Gano.unity
+    guid: e07985866505da74785750cb83b2ad25
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Perdio.unity
+    guid: d8dd123f89199d048a3f4a0f74c2781a
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Nivel 1.unity
+    guid: 90c120c38a8483642a843bc730ac7b78
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Nivel 2.unity
+    guid: a78d725a8645a584ba9cc94d405acba3
+  - enabled: 1
+    path: Assets/PvsZ/Scenes/Nivel 3.unity
+    guid: 9a40108655bd5d347a595b48eff65066
   m_configObjects: {}
