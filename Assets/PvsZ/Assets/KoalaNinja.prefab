@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4736116768674126
 Transform:
   m_ObjectHideFlags: 0
@@ -823,7 +823,7 @@ MonoBehaviour:
   LoopInitialMovementDirection: 0
   PathElements: []
   ReferenceMMPath: {fileID: 0}
-  AbsoluteReferencePath: 0
+  AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
   LockHandlesOnYAxis: 0
