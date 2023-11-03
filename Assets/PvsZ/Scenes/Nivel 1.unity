@@ -1921,10 +1921,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 1026204687}
+  ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -3359,7 +3359,7 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 940593489}
+  ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -4984,7 +4984,7 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 1540614565}
+  ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -6012,7 +6012,7 @@ MonoBehaviour:
   - tiempoSalida: 0
     cantidad: 3
     prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
-    ruta: {fileID: 1026204687}
+    ruta: {fileID: 1380397330}
   tiempo_entre_olas: 0
   PuedeAgregarButton: 0
 --- !u!1001 &650793128
@@ -7149,6 +7149,10 @@ PrefabInstance:
     - target: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
       propertyPath: m_Name
       value: KoalaNinja (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4736116768674126, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
       propertyPath: m_RootOrder
@@ -12364,6 +12368,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1826730471232328, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 1910092837729804, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -12418,16 +12426,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7
+      value: -3.9
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: orthographic size
-      value: 26.411083
+      value: 25.776924
       objectReference: {fileID: 0}
     - target: {fileID: 114043434711042032, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -13282,6 +13290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Koala
       objectReference: {fileID: 0}
+    - target: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4001341059962208, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13748,10 +13760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 1238482082}
+  ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -16743,6 +16755,10 @@ PrefabInstance:
     - target: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
       propertyPath: m_Name
       value: KoalaNinja
+      objectReference: {fileID: 0}
+    - target: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4736116768674126, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
       propertyPath: m_RootOrder
