@@ -6020,8 +6020,45 @@ MonoBehaviour:
     ruta: {fileID: 940593489}
   - tiempoSalida: 6
     cantidad: 1
-    prefab: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
+    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
+      type: 3}
     ruta: {fileID: 1708271226}
+  - tiempoSalida: 12
+    cantidad: 2
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1026204687}
+  - tiempoSalida: 4
+    cantidad: 2
+    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
+      type: 3}
+    ruta: {fileID: 1238482082}
+  - tiempoSalida: 10
+    cantidad: 1
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1540614565}
+  - tiempoSalida: 8
+    cantidad: 1
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1380397330}
+  - tiempoSalida: 15
+    cantidad: 2
+    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
+      type: 3}
+    ruta: {fileID: 940593489}
+  - tiempoSalida: 13
+    cantidad: 1
+    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
+      type: 3}
+    ruta: {fileID: 1540614565}
+  - tiempoSalida: 10
+    cantidad: 2
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1708271226}
+  - tiempoSalida: 5
+    cantidad: 1
+    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
+      type: 3}
+    ruta: {fileID: 1380397330}
   tiempo_entre_olas: 4
   PuedeAgregarButton: 0
 --- !u!1001 &650793128
