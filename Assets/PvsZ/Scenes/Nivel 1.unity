@@ -928,15 +928,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-  - tiempoSalida: 5
+  - tiempoSalida: 0
     cantidad: 3
     prefab: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
     ruta: {fileID: 1026204687}
-  - tiempoSalida: 8
+  - tiempoSalida: 5
     cantidad: 3
     prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
       type: 3}
-    ruta: {fileID: 1026204687}
+    ruta: {fileID: 1708271226}
   tiempo_entre_olas: 3
   PuedeAgregarButton: 0
 --- !u!1001 &128933392
@@ -28809,6 +28809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138409674}
   - component: {fileID: 2138409675}
+  - component: {fileID: 2138409676}
   m_Layer: 5
   m_Name: Contadores
   m_TagString: Untagged
@@ -28851,6 +28852,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contador: {fileID: 1559299557}
+--- !u!114 &2138409676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138409673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9111f9e80baff4b893d2df2291c99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: 
 --- !u!1001 &2144827618
 PrefabInstance:
   m_ObjectHideFlags: 0
