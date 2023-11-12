@@ -4,7 +4,7 @@ using UnityEngine;
 using MoreMountains.Tools;
 using TMPro;
 
-public class ContadorOlas : MonoBehaviour,MMEventListener<MMGameEvent>
+public class ControlOlas : MonoBehaviour,MMEventListener<MMGameEvent>
 {
     [SerializeField]
     private TMP_Text texto;
