@@ -31,7 +31,7 @@ GameObject:
   - component: {fileID: -6237124102514615795}
   m_Layer: 13
   m_Name: KoalaGuide
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +131,7 @@ SortingGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6509156661527016272}
-  m_Enabled: 1
+  m_Enabled: 0
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 6509156662221125221}
   - component: {fileID: 6509156662221125218}
   - component: {fileID: 6509156662221125219}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: DialogueZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
