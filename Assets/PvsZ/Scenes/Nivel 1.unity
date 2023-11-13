@@ -937,7 +937,7 @@ MonoBehaviour:
     prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
       type: 3}
     ruta: {fileID: 1708271226}
-  tiempo_entre_olas: 3
+  tiempo_entre_olas: 0
   PuedeAgregarButton: 0
 --- !u!1001 &128933392
 PrefabInstance:
@@ -6491,7 +6491,7 @@ MonoBehaviour:
     cantidad: 1
     prefab: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
     ruta: {fileID: 1380397330}
-  tiempo_entre_olas: 4
+  tiempo_entre_olas: 20
   PuedeAgregarButton: 0
 --- !u!1001 &650793128
 PrefabInstance:
@@ -25754,7 +25754,7 @@ PrefabInstance:
     - target: {fileID: 224643050518424086, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.000015
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 224793441342038400, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
