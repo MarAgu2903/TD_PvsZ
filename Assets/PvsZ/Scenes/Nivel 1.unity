@@ -5900,7 +5900,7 @@ MonoBehaviour:
   AutomaticallyUnparentOnAwake: 1
   TargetFrameRate: 300
   MaximumLives: 0
-  CurrentLives: 0
+  CurrentLives: 20
   GameOverScene: 
   Points: 0
   PauseGameWhenInventoryOpens: 1
