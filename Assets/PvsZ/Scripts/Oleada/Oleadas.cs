@@ -53,15 +53,12 @@ public class Oleadas : MonoBehaviour
         
         else
         {
-
             //Se termina la partida indicar que gano y mostrar ventana fin de nivel
             Debug.Log("Fin de oleadas");
             UnityEngine.SceneManagement.SceneManager.LoadScene("Gano");
 
         }
             
-            
-        }
 
     }
 
