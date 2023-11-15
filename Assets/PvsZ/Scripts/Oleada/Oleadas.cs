@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.Tools;
+using UnityEngine.SceneManagement;
 
 public class Oleadas : MonoBehaviour
 {
@@ -45,13 +46,15 @@ public class Oleadas : MonoBehaviour
             ola.EmpezarOla();
             ola.OleadasNivel = this;
             ola_actual++; //Acá se acualiza el contador de olas
-                          //Debug.Log("Ola "+ola_actual+"/"+olas.Count);
+                          Debug.Log("Ola "+ola_actual+"/"+olas.Count);
             MMGameEvent.Trigger("ActualizarUIOla");
         }
         else
         {
             //Se termina la partida indicar que gano y mostrar ventana fin de nivel
             Debug.Log("Fin de oleadas");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Gano");
+            
         }
 
     }

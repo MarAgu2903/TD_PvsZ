@@ -49,7 +49,7 @@ public class Ola : MonoBehaviour
             temp.CrearGrupo(d);
             temp.OlaActual = this;
             temp.Tiempo_salida = d.TiempoSalida;
-            tiempo_total_ola += d.TiempoSalida;
+            tiempo_total_ola = d.TiempoSalida;
             ola_grupos.Add(temp);
         }
         Debug.Log("Tiempo total de la ola "+tiempo_total_ola); 
