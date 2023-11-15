@@ -51,7 +51,7 @@ public class OlaGrupo : MonoBehaviour
     }
 
     public void EmpezarGrupo(){
-        StartCoroutine(DespacharEnemigo(TIEMPO_SALIDA_ENEMIGO));
+        StartCoroutine(DespacharEnemigo(TIEMPO_SALIDA_ENEMIGO)); 
     }
 
     private IEnumerator DespacharEnemigo(float tiempo)
@@ -74,6 +74,7 @@ public class OlaGrupo : MonoBehaviour
             {
                 brain.BrainActive = true;
             }*/
+
             if(++enemigo_actual < enemigos.Count)
             {
                 StartCoroutine(DespacharEnemigo(TIEMPO_SALIDA_ENEMIGO));
