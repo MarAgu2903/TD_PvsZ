@@ -21,6 +21,11 @@ public class Oleadas : MonoBehaviour
         return olas.Count;
     }
 
+    //public void CantidadEnemigos()
+    //{
+    //    Debug.Log("Cantidad Enemigos: " + olas.Cantidad.Count);
+    //}
+
     private void Awake() 
     { 
         // If there is an instance, and it's not me, delete myself.
@@ -55,7 +60,7 @@ public class Oleadas : MonoBehaviour
         {
             //Se termina la partida indicar que gano y mostrar ventana fin de nivel
             Debug.Log("Fin de oleadas");
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Gano");
+            //UnityEngine.SceneManagement.SceneManager.LoadScene("Gano");
 
         }
             

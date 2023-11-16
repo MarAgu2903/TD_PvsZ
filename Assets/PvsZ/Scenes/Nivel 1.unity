@@ -938,6 +938,11 @@ MonoBehaviour:
     prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
       type: 3}
     ruta: {fileID: 1708271226}
+  - tiempoSalida: 10
+    cantidad: 4
+    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
+      type: 3}
+    ruta: {fileID: 1238482082}
   tiempo_entre_olas: 20
   PuedeAgregarButton: 0
 --- !u!1001 &128933392
@@ -5901,7 +5906,7 @@ MonoBehaviour:
   TargetFrameRate: 300
   MaximumLives: 0
   CurrentLives: 20
-  GameOverScene: 
+  GameOverScene: Perdio
   Points: 0
   PauseGameWhenInventoryOpens: 1
 --- !u!4 &598334959
@@ -25525,11 +25530,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4674006675636828, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.19
+      value: 20.13
       objectReference: {fileID: 0}
     - target: {fileID: 4674006675636828, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.18
+      value: 1.95
       objectReference: {fileID: 0}
     - target: {fileID: 4674006675636828, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25537,11 +25542,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.25
+      value: 20.54
       objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.28
+      value: 2.16
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
