@@ -127,7 +127,6 @@ GameObject:
   - component: {fileID: -5384270977406299958}
   - component: {fileID: 114120590962362520}
   - component: {fileID: 114767317845071676}
-  - component: {fileID: 114103483350062584}
   - component: {fileID: 114778105809703722}
   - component: {fileID: 7741063750361697605}
   - component: {fileID: 27613511848507893}
@@ -346,7 +345,7 @@ MonoBehaviour:
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
-  Deceleration: 10
+  Deceleration: 100
   InterpolateMovementSpeed: 0
   WalkParticles:
   - {fileID: 198793333605707126}
@@ -489,7 +488,7 @@ MonoBehaviour:
   RespawnAtInitialLocation: 0
   DisableControllerOnDeath: 1
   DisableModelOnDeath: 1
-  DisableCollisionsOnDeath: 1
+  DisableCollisionsOnDeath: 0
   DisableChildCollisionsOnDeath: 0
   ChangeLayerOnDeath: 0
   ChangeLayersRecursivelyOnDeath: 0
@@ -503,54 +502,6 @@ MonoBehaviour:
   TargetDamageResistanceProcessor: {fileID: 0}
   TargetAnimator: {fileID: 0}
   DisableAnimatorLogs: 1
---- !u!114 &114103483350062584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561694053617324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76891b3b532f84acaaeed44c357bd00c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetLayerMask:
-    serializedVersion: 2
-    m_Bits: 1024
-  Owner: {fileID: 0}
-  TriggerFilter: 195
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
-  TypedDamages: []
-  DamageDirectionMode: 1
-  DamageCausedKnockbackType: 2
-  DamageCausedKnockbackDirection: 0
-  DamageCausedKnockbackForce: {x: 500, y: 500, z: 0}
-  InvincibilityDuration: 1
-  RepeatDamageOverTime: 0
-  AmountOfRepeats: 3
-  DurationBetweenRepeats: 1
-  DamageOverTimeInterruptible: 1
-  RepeatedDamageType: {fileID: 0}
-  DamageTakenEveryTime: 0
-  DamageTakenDamageable: 0
-  DamageTakenNonDamageable: 0
-  DamageTakenKnockbackType: 0
-  DamageTakenKnockbackForce: {x: 0, y: 0, z: 0}
-  DamageTakenInvincibilityDuration: 0.5
-  HitDamageableFeedback: {fileID: 0}
-  HitNonDamageableFeedback: {fileID: 0}
-  HitAnythingFeedback: {fileID: 0}
-  HitDamageableEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  HitNonDamageableEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  HitAnythingEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &114778105809703722
 MonoBehaviour:
   m_ObjectHideFlags: 0

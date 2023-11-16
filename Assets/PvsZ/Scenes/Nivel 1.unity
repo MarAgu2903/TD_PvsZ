@@ -935,13 +935,35 @@ MonoBehaviour:
     ruta: {fileID: 1026204687}
   - tiempoSalida: 5
     cantidad: 3
-    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
-      type: 3}
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
     ruta: {fileID: 1708271226}
   - tiempoSalida: 10
     cantidad: 4
-    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
-      type: 3}
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1238482082}
+  - tiempoSalida: 12
+    cantidad: 2
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1380397330}
+  - tiempoSalida: 13
+    cantidad: 1
+    prefab: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
+    ruta: {fileID: 1026204687}
+  - tiempoSalida: 15
+    cantidad: 3
+    prefab: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
+    ruta: {fileID: 940593489}
+  - tiempoSalida: 15
+    cantidad: 1
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1540614565}
+  - tiempoSalida: 17
+    cantidad: 2
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1708271226}
+  - tiempoSalida: 18
+    cantidad: 1
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
     ruta: {fileID: 1238482082}
   tiempo_entre_olas: 20
   PuedeAgregarButton: 0
@@ -4608,6 +4630,7 @@ Transform:
   - {fileID: 318459983}
   - {fileID: 647923794}
   - {fileID: 126939760}
+  - {fileID: 1674436802}
   m_Father: {fileID: 71771402}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6587,18 +6610,15 @@ MonoBehaviour:
     ruta: {fileID: 1380397330}
   - tiempoSalida: 3
     cantidad: 1
-    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
-      type: 3}
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
     ruta: {fileID: 940593489}
   - tiempoSalida: 6
     cantidad: 1
-    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
-      type: 3}
+    prefab: {fileID: 1561694053617324, guid: 4a29a877835a05e4f8933ee52cbe05c0, type: 3}
     ruta: {fileID: 1708271226}
   - tiempoSalida: 12
     cantidad: 2
-    prefab: {fileID: 6509156661527016272, guid: 509543e420882f5459fe13f2ff42317b,
-      type: 3}
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
     ruta: {fileID: 1026204687}
   - tiempoSalida: 4
     cantidad: 2
@@ -10418,7 +10438,7 @@ SortingGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031429713}
-  m_Enabled: 1
+  m_Enabled: 0
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
@@ -10482,9 +10502,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: 
   DetectMethod: 1
-  DetectionDirection: 0
+  DetectionDirection: 2
   RayWidth: 1
-  DetectionDistance: 32
+  DetectionDistance: 36
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -26171,7 +26191,7 @@ PrefabInstance:
     - target: {fileID: 224643050518424086, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.000015
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 224793441342038400, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -26523,6 +26543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1365891210}
+  - component: {fileID: 1365891211}
   m_Layer: 5
   m_Name: Contador monedas
   m_TagString: Untagged
@@ -26552,6 +26573,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1365891211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365891209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9ce6e7d7da81149b482d408f35669b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1368052189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29074,6 +29107,57 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1382554248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1674436801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1674436802}
+  - component: {fileID: 1674436803}
+  m_Layer: 0
+  m_Name: Ola 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1674436802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674436801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 502397039}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1674436803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674436801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6937778ea1a0b6c4e9a69c15635c0dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - tiempoSalida: 0
+    cantidad: 0
+    prefab: {fileID: 1498750440386690, guid: 7a3a9d4ad1f44b54c898e2d903a7414d, type: 3}
+    ruta: {fileID: 1380397330}
+  tiempo_entre_olas: 20
+  PuedeAgregarButton: 0
 --- !u!4 &1676118582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4798570233257244, guid: 581ea2e7a3383fa4eac2d162354979b5,

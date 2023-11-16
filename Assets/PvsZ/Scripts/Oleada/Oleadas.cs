@@ -15,16 +15,15 @@ public class Oleadas : MonoBehaviour
     public static Oleadas Instance { get; private set; }
     public GameObject ContenedorGrupos { get => contenedor_grupos; set => contenedor_grupos = value; }
     public int OlaActual { get => ola_actual; set => ola_actual = value; }
+    
+    private List<OlaData> data;
+    private float contEnemigos;
+
 
     public int CantidadOlas()
     {
         return olas.Count;
     }
-
-    //public void CantidadEnemigos()
-    //{
-    //    Debug.Log("Cantidad Enemigos: " + olas.Cantidad.Count);
-    //}
 
     private void Awake() 
     { 
@@ -58,12 +57,12 @@ public class Oleadas : MonoBehaviour
         
         else
         {
+            
             //Se termina la partida indicar que gano y mostrar ventana fin de nivel
             Debug.Log("Fin de oleadas");
-            //UnityEngine.SceneManagement.SceneManager.LoadScene("Gano");
-
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Gano");
         }
-            
+        
 
     }
 

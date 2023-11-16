@@ -14,6 +14,7 @@ public class Ola : MonoBehaviour
     private GameObject grupos;
     private int grupo_actual;
     private float tiempo_total_ola;
+    private int numenemigos;
     [SerializeField]
     private float tiempo_entre_olas;
     private bool ola_despachada;
@@ -51,9 +52,12 @@ public class Ola : MonoBehaviour
             temp.OlaActual = this;
             temp.Tiempo_salida = d.TiempoSalida;
             tiempo_total_ola = d.TiempoSalida;
+
+            numenemigos += d.Cantidad;
             ola_grupos.Add(temp);
         }
         Debug.Log("Tiempo total de la ola "+tiempo_total_ola); 
+        Debug.Log("Cantidad Enemigos "+numenemigos);
     }
 
     public void EmpezarOla(){

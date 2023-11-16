@@ -9810,7 +9810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4001341059962208}
   - component: {fileID: 50050392041868628}
-  - component: {fileID: 8617648886571333694}
+  - component: {fileID: 124774238515807339}
   - component: {fileID: 210286107803106362}
   - component: {fileID: 114923167933730068}
   - component: {fileID: 114873785417298432}
@@ -9818,15 +9818,9 @@ GameObject:
   - component: {fileID: 114184457958384624}
   - component: {fileID: 114079283237680582}
   - component: {fileID: 114495819129293066}
-  - component: {fileID: 114545434076996454}
-  - component: {fileID: 114619658823058744}
   - component: {fileID: 114530058247276760}
-  - component: {fileID: 114863807796539354}
-  - component: {fileID: 114644362621734812}
-  - component: {fileID: 114104414726605804}
   - component: {fileID: 114171358364461030}
   - component: {fileID: -794806377844840719}
-  - component: {fileID: 114499223069276626}
   - component: {fileID: -257518223985918939}
   - component: {fileID: -912241705561101463}
   - component: {fileID: -8358244113986747667}
@@ -9884,8 +9878,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &8617648886571333694
-CircleCollider2D:
+--- !u!61 &124774238515807339
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9894,12 +9888,22 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01087107, y: 0.5793576}
+  m_Offset: {x: 0, y: 0.19}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 1.4078728
+  m_Size: {x: 0.6, y: 0.5}
+  m_EdgeRadius: 0
 --- !u!210 &210286107803106362
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -10128,70 +10132,7 @@ MonoBehaviour:
     CooldownState: 0
     CurrentDurationLeft: 0
   InvincibleWhileDashing: 0
-  DashFeedback: {fileID: 5986297841957823375}
---- !u!114 &114545434076996454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a07c6668aa55403790d27b575279549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  InitialWeapon: {fileID: 0}
-  CanPickupWeapons: 1
-  WeaponUseFeedback: {fileID: 0}
-  WeaponAttachment: {fileID: 4515663194721164}
-  ProjectileSpawn: {fileID: 0}
-  AutomaticallyBindAnimator: 1
-  AmmoDisplayID: 0
-  AutoIK: 1
-  ContinuousPress: 0
-  GettingHitInterruptsAttack: 0
-  UseSecondaryAxisThresholdToShoot: 0
-  ForceWeaponAimControl: 0
-  ForcedWeaponAimControl: 1
-  ForceAlwaysShoot: 0
-  BufferInput: 1
-  NewInputExtendsBuffer: 0
-  MaximumBufferDuration: 0.25
-  RequiresPerfectTile: 0
-  CurrentWeapon: {fileID: 0}
---- !u!114 &114619658823058744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a87ffdd7d8febb24b817b1d3d350bef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  PreventJumpInButtonActivatedZone: 1
-  ButtonActivatedZone: {fileID: 0}
+  DashFeedback: {fileID: 0}
 --- !u!114 &114530058247276760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10213,96 +10154,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  FallingFeedback: {fileID: 4241640356283784650}
---- !u!114 &114863807796539354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c86c96e06d6ae44b822a6ab24e1b8fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  JumpDuration: 0.5
-  JumpProportionalToPress: 1
-  MinimumPressTime: 0.5
-  JumpStartFeedback: {fileID: 1898030370951007889}
-  JumpStopFeedback: {fileID: 0}
---- !u!114 &114644362621734812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3c5cde4f9ad2514f8f7c0dcdbb02e98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  MuteSfxTrackSounds: 1
-  MuteUITrackSounds: 0
-  MuteMusicTrackSounds: 0
-  MuteMasterTrackSounds: 0
-  OnPause:
-    m_PersistentCalls:
-      m_Calls: []
-  OnUnpause:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &114104414726605804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b56d00552d6cd44b46000232e9d83a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  PlayerID: Player1
-  MainInventoryName: KoalaMainInventory
-  WeaponInventoryName: KoalaWeaponInventory
-  HotbarInventoryName: 
-  InventoryTransform: {fileID: 0}
-  WeaponRotationMode: 0
-  AutoPickItems: []
-  AutoPickOnlyIfMainInventoryIsEmpty: 0
-  AutoEquipWeaponOnStart: {fileID: 0}
-  AutoEquipOnlyIfMainInventoryIsEmpty: 0
-  CharacterHandleWeapon: {fileID: 0}
+  FallingFeedback: {fileID: 0}
 --- !u!114 &114171358364461030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10524,37 +10376,6 @@ MonoBehaviour:
   DisplayDurationOnHit: 1
   HideBarAtZero: 1
   HideBarAtZeroDelay: 0
---- !u!114 &114499223069276626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceea5d59c11750f4e8deb2c47ff8bcb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObstacleMask:
-    serializedVersion: 2
-    m_Bits: 8448
-  VisionRadius: 100
-  VisionAngle: 360
-  AngleOffset: 0
-  Direction: {x: 0, y: 0, z: 0}
-  EulerAngles: {x: 0, y: 0, z: 0}
-  ShouldScanForTargets: 0
-  TargetMask:
-    serializedVersion: 2
-    m_Bits: 8192
-  ScanFrequencyInSeconds: 1
-  VisibleTargets: []
-  ShouldDrawMesh: 1
-  MeshDensity: 1
-  EdgePrecision: 3
-  EdgeThreshold: 0.5
-  VisionMeshFilter: {fileID: 33599144827507420}
 --- !u!114 &-257518223985918939
 MonoBehaviour:
   m_ObjectHideFlags: 0
